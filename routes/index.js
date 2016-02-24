@@ -21,7 +21,7 @@ function convert(req, res){
   console.log("query was: convert " + dollars + " to " + convertTo);
 
   //Our conversion rates - TODO what's wrong with this?
-  var conversions = { "Pound" : 1.6 , "Euro" : 1.1 };
+  var conversions = { "Pound" : 0.6 , "Euro" : 0.9 };
 
   var conversionRate = conversions[convertTo];
 
