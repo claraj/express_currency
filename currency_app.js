@@ -18,7 +18,7 @@ app.use('/about', about);
 
 
 app.listen(process.env.PORT || 3030, function() {
-  console.log("Currency app listening on port 3030");
+  console.log("Currency app listening on port 3030 (or port assigned by host)");
 });
 
 module.exports = app
