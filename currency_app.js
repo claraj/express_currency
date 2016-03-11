@@ -17,7 +17,7 @@ app.use('/about', about);
 
 
 
-app.listen(process.env.port || 3030, function() {
+app.listen(process.env.PORT || 3030, function() {
   console.log("Currency app listening on port 3030");
 });
 
